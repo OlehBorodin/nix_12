@@ -11,6 +11,7 @@
 
     <modules>
         <module> module_1_oleh_borodin</module>
+        <module>hw_2_base_type</module>
     </modules>
 
     <properties>
