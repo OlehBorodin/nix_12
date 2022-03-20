@@ -17,13 +17,13 @@ public class ReversSecondWay {
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
             StringBuilder reversedWordSB = new StringBuilder();
-            for (int j = word.length()-1; j >= 0; j--) {
+            for (int j = word.length() - 1; j >= 0; j--) {
                 reversedWordSB.append(word.charAt(j));
             }
             String reverseWord = reversedWordSB.toString();
             reversedStringSB.append(reverseWord).append(" ");
         }
-         reversedString = reversedStringSB.toString();
+        reversedString = reversedStringSB.toString();
         System.out.println(reversedString);
     }
 
